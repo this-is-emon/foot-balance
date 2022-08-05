@@ -23,7 +23,7 @@ const Header = () => {
                     </div>
                     <div className="navbar-start">
                         {/* <a className="btn btn-ghost normal-case text-xl text-gray-600"> <img className='pr-2' src={pic} alt="foot logo" /> FootBalance</a> */}
-                        <a className="normal-case text-xl text-gray-600"> <img className='pr-2' src={pic} alt="foot logo" /> Foot Balance <span>Technology</span></a>
+                        <a className="normal-case text-xl text-gray-600"> <img className='pr-2 lg:mx-auto' src={pic} alt="foot logo" /> <span className='font-bold'>Foot Balance</span> <span className='font-bold'>TechnologyBD</span></a>
                         {/* <span className=" normal-case text-xl text-gray-600"> <img className='pr-2' src={pic} alt="foot logo" /> FootBalance</span> */}
                     </div>
 
