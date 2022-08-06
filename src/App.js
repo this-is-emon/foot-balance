@@ -8,8 +8,12 @@ import Products from './pages/Products/Products';
 import Services from './pages/Services/Services';
 import Footer from './pages/Shared/Footer/Footer';
 import Header from './pages/Shared/Header/Header';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+  AOS.init();
+
   return (
     <div>
       <Header></Header>
