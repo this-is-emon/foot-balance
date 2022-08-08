@@ -3,6 +3,7 @@ import Services from '../Services/Services';
 import Carousel from './Carousel';
 import Hero1 from './Hero1';
 import Products from './Products';
+import Review from './Review';
 import Youtube from './Youtube';
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
             <Hero1></Hero1>
             <Youtube></Youtube>
             <Products></Products>
+            <Review></Review>
         </div>
     );
 };
