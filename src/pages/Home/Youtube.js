@@ -1,11 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import pic from '../../assets/images/ddot.png';
+import pic from '../../assets/images/footer.png';
 import pic2 from '../../assets/images/ortho4.jpg';
 
 const Youtube = () => {
     return (
-        <div className='grid sm:grid-cols-1 lg:grid-cols-2 gap-2' style={{ background: `url(${pic})`, backgroundSize: 'cover', sm: 'w-50' }}>
+        <div className='grid sm:grid-cols-1 lg:grid-cols-2 gap-2' style={{ background: `url(${pic})`, backgroundSize: 'cover' }}>
 
             {/* ------- youtube section------- */}
 
