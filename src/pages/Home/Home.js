@@ -2,6 +2,7 @@ import React from 'react';
 import Services from '../Services/Services';
 import Carousel from './Carousel';
 import Hero1 from './Hero1';
+import Products from './Products';
 import Youtube from './Youtube';
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
             <Carousel></Carousel>
             <Hero1></Hero1>
             <Youtube></Youtube>
+            <Products></Products>
         </div>
     );
 };

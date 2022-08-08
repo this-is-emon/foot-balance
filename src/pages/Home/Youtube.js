@@ -5,7 +5,7 @@ import pic2 from '../../assets/images/ortho4.jpg';
 
 const Youtube = () => {
     return (
-        <div className='grid sm:grid-cols-1 lg:grid-cols-2 gap-2' style={{ background: `url(${pic})`, backgroundSize: 'cover' }}>
+        <div className='grid sm:grid-cols-1 lg:grid-cols-2 gap-2' style={{ background: `url(${pic})`, backgroundSize: 'cover', sm: 'w-50' }}>
 
             {/* ------- youtube section------- */}
 
@@ -19,10 +19,13 @@ const Youtube = () => {
                                 data-aos-delay="600"
                                 class="py-3 font-bold bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400 text-xl"> Watch the video and hear an inspiring story!</p>
                             <iframe
-                                data-aos="fade-top"
+
+                                data-aos="zoom-in-right"
                                 data-aos-duration="30000"
                                 data-aos-delay="800"
-                                className='mx-auto pb-5 w-80 h-64 border-4 border-primary rounded-xl' src="https://www.youtube.com/embed/1uXbBusjUH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                className='mx-auto pb-5 w-full h-full border-4 border-primary rounded-xl' src="https://www.youtube.com/embed/1uXbBusjUH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                                
                             <h1
                                 data-aos="fade-left"
                                 data-aos-duration="30000"
@@ -62,12 +65,15 @@ const Youtube = () => {
                                 data-aos="fade-left"
                                 data-aos-duration="30000"
                                 data-aos-delay="600"
-                                class="py-3 font-bold bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400 text-3xl">Our Services</p>
-                            <img data-aos="fade-top"
+
+                                class="py-3 font-bold bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400 text-4xl">Our Services</p>
+                            <img data-aos="zoom-in-left"
                                 data-aos-duration="30000"
                                 data-aos-delay="800"
                                 className='w-60 rounded-xl border-t-4 border-b-4 border-primary mx-auto' src={pic2} alt="shoe pic" />
-                            <h1 data-aos="fade-right"
+                            {/* <h1 data-aos="fade-right"
+
+                                
                                 data-aos-duration="30000"
                                 data-aos-delay="1000"
                                 class="text-3xl font-bold pt-4 pb-4">Let us help you</h1>
@@ -75,7 +81,9 @@ const Youtube = () => {
                                 data-aos="fade-left"
                                 data-aos-duration="30000"
                                 data-aos-delay="1200"
-                                class="py-3 text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400">GIVE IT A TRY...</p>
+
+                                class="py-3 text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400">GIVE IT A TRY...</p> */}
+                                
                             <p data-aos="fade-right"
                                 data-aos-duration="30000"
                                 data-aos-delay="1400"
@@ -86,10 +94,13 @@ const Youtube = () => {
                                 class="py-2 font-semibold"> We make or modify footwear to assist clients to recover as much mobility as possible.</p>
 
                             <NavLink
-                                data-aos="fade-left"
+
+                                data-aos="fade-top"
                                 data-aos-duration="30000"
                                 data-aos-delay="1600"
-                                className='bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400 font-bold' to='/services'>See More...</NavLink>
+                                className=' bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400  font-bold text-xl' to='/services'>SEE MORE...</NavLink>
+
+                                
                         </div>
                     </div>
                 </div>
