@@ -6,10 +6,11 @@ import footer from '../../assets/images/ddot.png'
 
 const Review = () => {
     return (
+
         <div style={{ background: `url(${footer})`, backgroundSize: 'cover' }}>
             <p className="mb-5 pt-10 text-center mt-14 font-bold text-4xl text-gray-700"
             >Customer Reviews</p>
-            <div class="carousel">
+            <div class="carousel ">
                 <div id="item1" class="carousel-item w-full ">
                     <img src={pic1} alt='review' class="w-100 h-80 mx-auto rounded-2xl" />
                 </div>
