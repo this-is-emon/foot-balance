@@ -1,13 +1,14 @@
 import React from 'react';
-import pic1 from '../../assets/images/cer1.jpg'
-import pic2 from '../../assets/images/cer2.jpg'
-import pic3 from '../../assets/images/cer3.jpg'
-import pic4 from '../../assets/images/cer4.jpeg'
-import pic5 from '../../assets/images/cer5.jpg'
-import pic6 from '../../assets/images/cer6.jpg'
-import pic7 from '../../assets/images/cer7.jpg'
-import pic8 from '../../assets/images/cer8.jpg'
-import pic10 from '../../assets/images/cer10.jpg'
+import pic1 from '../../assets/images/cer1.jpg';
+import pic2 from '../../assets/images/cer2.jpg';
+import pic3 from '../../assets/images/cer3.jpg';
+import pic4 from '../../assets/images/cer4.jpeg';
+import pic5 from '../../assets/images/cer5.jpg';
+import pic6 from '../../assets/images/cer6.jpg';
+import pic7 from '../../assets/images/cer7.jpg';
+import pic8 from '../../assets/images/cer8.jpg';
+import pic10 from '../../assets/images/cer10.jpg';
+import './Awards.css';
 
 const Awards = () => {
     return (
