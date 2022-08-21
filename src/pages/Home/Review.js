@@ -8,7 +8,7 @@ const Review = () => {
     return (
 
         <div style={{ background: `url(${footer})`, backgroundSize: 'cover' }}>
-            <p className="mb-5 pt-10 text-center mt-14 font-bold text-4xl text-gray-700"
+            <p className="mb-10 pt-24 text-center font-bold text-4xl bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400"
             >Customer Reviews</p>
             <div class="carousel ">
                 <div id="item1" class="carousel-item w-full ">

@@ -16,7 +16,7 @@ const Hero1 = () => {
                         <p data-aos="fade-right"
                             data-aos-duration="30000"
                             data-aos-delay="1000"
-                            className="mb-5 font-bold text-4xl bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400 border-b-4 border-gray-500 "
+                            className="mb-5 font-bold text-4xl bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400 border-b-4 max-w-lg border-gray-500 "
                         >We can help you walk again!!</p>
                         <p data-aos="fade-left"
                             data-aos-duration="30000"
@@ -32,7 +32,7 @@ const Hero1 = () => {
                 <svg className='mt-96 hidden sm:block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d9f99d" fill-opacity="0.4" d="M0,64L40,58.7C80,53,160,43,240,74.7C320,107,400,181,480,218.7C560,256,640,256,720,224C800,192,880,128,960,85.3C1040,43,1120,21,1200,48C1280,75,1360,149,1400,186.7L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
 
 
-                
+
             </div>
         </div>
     );

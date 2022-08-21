@@ -6,7 +6,7 @@ import diagram from '../../assets/images/ortho5.png';
 const Products = () => {
     return (
         <div >
-            <div class="hero min-h-screen ">
+            <div class="hero min-h-screen">
                 <div class="hero-content flex-col lg:flex-row-reverse">
                     <img data-aos="zoom-in"
                         data-aos-duration="30000"
@@ -15,7 +15,7 @@ const Products = () => {
                         <p data-aos="fade-right"
                             data-aos-duration="30000"
                             data-aos-delay="1000"
-                            className="mb-5 font-bold text-4xl bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400 border-b-4 border-w-25 border-gray-500 "
+                            className="mb-5 font-bold text-4xl bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400 border-b-4 max-w-sm mx-auto text-center border-gray-500 "
                         >Our Products</p>
                         <p data-aos="fade-right"
                             data-aos-duration="30000"
@@ -27,11 +27,10 @@ const Products = () => {
                             data-aos-delay="1300"
                             class="py-6 text-lime-700 text-xl sm:m-5"
                         >We recommend and make the right footwear – the kind that will help you regain your balance, free you from pain and let you keep doing what you love best.</p>
-
                         <NavLink
                             data-aos="fade-left"
                             data-aos-duration="30000"
-                            data-aos-delay="1300"
+                            data-aos-delay="800"
                             className='text-2xl bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400 font-bold' to='/products'>--- VIEW PRODUCTS ---</NavLink>
                     </div>
                 </div>
