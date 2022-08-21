@@ -24,7 +24,7 @@ const Youtube = () => {
                                     data-aos="zoom-in-right"
                                     data-aos-duration="30000"
                                     data-aos-delay="800"
-                                    className='responsive-iframe mx-auto pb-5 w-full h-full border-4 border-primary rounded-xl' src="https://www.youtube.com/embed/1uXbBusjUH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                    className='responsive-iframe mx-auto pb-5 w-full h-full border-t-4 border-b-4 border-primary rounded-xl' src="https://www.youtube.com/embed/1uXbBusjUH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                                 </iframe>
 
                             </div>
