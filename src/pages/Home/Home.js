@@ -1,4 +1,5 @@
 import React from 'react';
+import Awards from '../Awards/Awards';
 import Services from '../Services/Services';
 import Carousel from './Carousel';
 import Hero1 from './Hero1';
@@ -13,6 +14,7 @@ const Home = () => {
             <Hero1></Hero1>
             <Youtube></Youtube>
             <Products></Products>
+            <Awards></Awards>
             <Review></Review>
         </div>
     );
