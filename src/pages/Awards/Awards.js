@@ -12,34 +12,34 @@ import './Awards.css';
 
 const Awards = () => {
     return (
-        <div className='w-10/12 mx-auto'>
+        <div className='w-10/12 mx-auto sm:mt-20'>
             <p className="mb-20 text-4xl bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400  border-b-4 max-w-lg mx-auto text-center font-bold border-gray-500 "
             >Awards and Recognition</p>
             <div class="grid grid-cols-3 gap-4">
                 <div>
-                    <img src={pic1} alt='certificate1 pic' />
+                    <img className='awr-img' src={pic1} alt='certificate1 pic' />
                 </div>
                 <div>
-                    <img src={pic2} alt='certificate2 pic' />
+                    <img className='awr-img' src={pic2} alt='certificate2 pic' />
                 </div>
                 <div>
-                    <img src={pic3} alt='certificate3 pic' />
+                    <img className='awr-img' src={pic3} alt='certificate3 pic' />
                 </div>
                 <div class="row-span-2">
                     <div class="row-span-2">
-                        <img src={pic6} alt='certificate4 pic' />
+                        <img className='awr-img' src={pic6} alt='certificate4 pic' />
                     </div>
-                    <img src={pic4} alt='certificate4 pic' />
+                    <img className='awr-img' src={pic4} alt='certificate4 pic' />
                 </div>
                 <div>
-                    <img src={pic7} alt='certificate4 pic' />
+                    <img className='awr-img' src={pic7} alt='certificate4 pic' />
                 </div>
                 <div class="row-span-2 gap-2">
-                    <img src={pic5} alt='certificate4 pic' />
-                    <img src={pic8} alt='certificate4 pic' />
+                    <img className='awr-img' src={pic5} alt='certificate4 pic' />
+                    <img className='awr-img' src={pic8} alt='certificate4 pic' />
                 </div>
                 <div className='pb-5'>
-                    <img src={pic10} alt='certificate4 pic' />
+                    <img className='awr-img' src={pic10} alt='certificate4 pic' />
                 </div>
             </div>
 
