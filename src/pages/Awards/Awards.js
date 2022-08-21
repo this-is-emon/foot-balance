@@ -7,7 +7,6 @@ import pic5 from '../../assets/images/cer5.jpg'
 import pic6 from '../../assets/images/cer6.jpg'
 import pic7 from '../../assets/images/cer7.jpg'
 import pic8 from '../../assets/images/cer8.jpg'
-import pic9 from '../../assets/images/cer9.jpg'
 import pic10 from '../../assets/images/cer10.jpg'
 
 const Awards = () => {
