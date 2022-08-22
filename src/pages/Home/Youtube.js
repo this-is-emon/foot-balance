@@ -1,9 +1,11 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { NavLink } from 'react-router-dom';
 import pic from '../../assets/images/footer.png';
 import pic2 from '../../assets/images/ortho4.jpg';
 
 const Youtube = () => {
+    const { t } = useTranslation();
     return (
         <div className='grid sm:grid-cols-1 lg:grid-cols-2 gap-2' style={{ background: `url(${pic})`, backgroundSize: 'cover' }}>
 
@@ -17,7 +19,7 @@ const Youtube = () => {
                                 data-aos="fade-right"
                                 data-aos-duration="30000"
                                 data-aos-delay="600"
-                                class="py-3 font-bold bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400 text-xl"> Watch the video and hear an inspiring story!</p>
+                                class="py-3 font-bold bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400 text-xl">{t("introVideoTitle")}</p>
                             <iframe
 
                                 data-aos="zoom-in-right"
@@ -30,23 +32,29 @@ const Youtube = () => {
                                 data-aos="fade-left"
                                 data-aos-duration="30000"
                                 data-aos-delay="1000"
-                                class="text-3xl font-bold">Case studies
-                                of our clients</h1>
+                                class="text-3xl font-bold"
+                            >{t("caseStudyTitle1")}
+                            </h1>
                             <p
                                 data-aos="fade-right"
                                 data-aos-duration="30000"
                                 data-aos-delay="1200"
-                                class="py-3 text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400">STORIES THAT INSPIRE…</p>
+                                class="py-3 text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400"
+                            >{t("caseStudyTitle2")}</p>
                             <p
                                 data-aos="fade-left"
                                 data-aos-duration="30000"
                                 data-aos-delay="1400"
-                                class="py-4 font-semibold">There is nothing harder than not being able to be on one’s feet. There are thousands of people suffering from difficulties in the lower limbs around the world. Over the years we have helped many people gain back their mobility and have put them back on track in their lives.</p>
+                                class="py-4 font-semibold"
+                            >{t("caseStudyParagraph1")}
+                            </p>
                             <p
                                 data-aos="fade-right"
                                 data-aos-duration="30000"
                                 data-aos-delay="1600"
-                                class="py-2 font-semibold"> If you or anyone you know needs help managing or regaining their ability to walk at any point in their life, let us help. Spread the word so that everyone knows that we are here and we can help people walk again.</p>
+                                class="py-2 font-semibold"
+                            >{t("caseStudyParagraph2")} 
+                            </p>
                         </div>
                     </div>
                 </div>
