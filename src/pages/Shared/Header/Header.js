@@ -1,11 +1,23 @@
-import React from 'react';
+import Cookies from 'js-cookie';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { NavLink } from 'react-router-dom';
 import pic from '../../../assets/images/t.png';
 
 const Header = () => {
 
-    const {t} = useTranslation();
+    const { t,i18n } = useTranslation();
+
+    /*-------- Language Switcher code ----------------------*/
+    //get() method to read a cookie from the storage and accepts the name of the cookie. 
+    const currentLocale = Cookies.get("i18next") || "en";
+    //changing the state of the language
+    const [language, setLanguage] = useState(currentLocale);
+    const handleChangeLocale = (e) => {
+        const lang = e.target.value;
+        setLanguage(lang);
+        i18n.changeLanguage(lang);
+    }
 
     return (
         <div>
@@ -40,13 +52,14 @@ const Header = () => {
                         <li className='pr-2'><NavLink className='text-white' to='/products'>{t("navbar.products")}</NavLink></li>
                         <li className='pr-2'><NavLink className='text-white' to='/about'>{t("navbar.aboutUs")}</NavLink></li>
                         <li className='pr-2'><NavLink className='text-white' to='/blogs'>{t("navbar.blogs")}</NavLink></li>
-                        <li className='pr-2'><NavLink className='text-white' to='/contact'>{t("navbar.blogs")}</NavLink></li>
+                        <li className='pr-2'><NavLink className='text-white' to='/contact'>{t("navbar.contactUs")}</NavLink></li>
                     </ul>
                 </div>
                 <div>
-                    <select id="countries" className="btn btn-ghost">
+                    {/* "handleChangeLocale" function just above the return statement */}
+                    <select id="countries" className="btn btn-ghost" onChange={handleChangeLocale} value={language}>
                         <option className='text-white bg-primary' value="en">English</option>
-                        <option className='text-white bg-primary' value="bn">Bangla</option>
+                        <option className='text-white bg-primary' value="bn">বাংলা</option>
                     </select>
                 </div>
             </div>
