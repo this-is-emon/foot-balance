@@ -53,7 +53,7 @@ const Youtube = () => {
                                 data-aos-duration="30000"
                                 data-aos-delay="1600"
                                 class="py-2 font-semibold"
-                            >{t("caseStudyParagraph2")} 
+                            >{t("caseStudyParagraph2")}
                             </p>
                         </div>
                     </div>
@@ -74,7 +74,9 @@ const Youtube = () => {
                                 data-aos-duration="30000"
                                 data-aos-delay="600"
 
-                                class="py-3 pb-5 font-bold bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400 text-4xl">Our Services</p>
+                                class="py-3 pb-5 font-bold bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400 text-4xl"
+                            >{t("servicesTitle")}
+                            </p>
                             <img data-aos="zoom-in-left"
                                 data-aos-duration="30000"
                                 data-aos-delay="800"
@@ -82,18 +84,24 @@ const Youtube = () => {
                             <p data-aos="fade-right"
                                 data-aos-duration="30000"
                                 data-aos-delay="1400"
-                                class="py-4 font-semibold pt-10">At Foot Balance Technology we manage and treat various conditions of the foot, ankle, and lower limb extremities that require fitting, fabrication, and adjustments of pedorthic devices/footwear. </p>
+                                class="py-4 font-semibold pt-10"
+                            >{t("servicesParagraph1")}
+                            </p>
                             <p data-aos="fade-left"
                                 data-aos-duration="30000"
                                 data-aos-delay="1600"
-                                class="py-2 font-semibold"> We make or modify footwear to assist clients to recover as much mobility as possible.</p>
+                                class="py-2 font-semibold"
+                            >{t("servicesParagraph2")}
+                            </p>
 
                             <NavLink
 
                                 data-aos="fade-top"
                                 data-aos-duration="30000"
                                 data-aos-delay="1600"
-                                className=' bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400  font-bold text-xl' to='/services'>SEE MORE...</NavLink>
+                                className=' bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400  font-bold text-xl' to='/services'
+                            >{t("servicesLink")}
+                            </NavLink>
 
 
                         </div>

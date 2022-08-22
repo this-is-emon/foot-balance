@@ -1,19 +1,21 @@
 import React from 'react';
-import pic1 from '../../assets/images/cer1.jpg'
-import pic2 from '../../assets/images/cer2.jpg'
-import pic3 from '../../assets/images/cer3.jpg'
-import pic4 from '../../assets/images/cer4.jpeg'
-import pic5 from '../../assets/images/cer5.jpg'
-import pic6 from '../../assets/images/cer6.jpg'
-import pic7 from '../../assets/images/cer7.jpg'
-import pic8 from '../../assets/images/cer8.jpg'
-import pic10 from '../../assets/images/cer10.jpg'
+import { useTranslation } from 'react-i18next';
+import pic1 from '../../assets/images/cer1.jpg';
+import pic10 from '../../assets/images/cer10.jpg';
+import pic2 from '../../assets/images/cer2.jpg';
+import pic3 from '../../assets/images/cer3.jpg';
+import pic4 from '../../assets/images/cer4.jpeg';
+import pic5 from '../../assets/images/cer5.jpg';
+import pic6 from '../../assets/images/cer6.jpg';
+import pic7 from '../../assets/images/cer7.jpg';
+import pic8 from '../../assets/images/cer8.jpg';
 
 const Awards = () => {
+    const {t} = useTranslation();
     return (
         <div className='w-10/12 mx-auto'>
             <p className="mb-20 text-4xl bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400  border-b-4 max-w-lg mx-auto text-center font-bold border-gray-500 "
-            >Awards and Recognition</p>
+            >{t("awardsTitle")}</p>
             <div class="grid grid-cols-3 gap-4">
                 <div>
                     <img src={pic1} alt='certificate1 pic' />
