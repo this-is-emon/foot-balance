@@ -1,6 +1,5 @@
 import React from 'react';
 import Awards from '../Awards/Awards';
-import Services from '../Services/Services';
 import Carousel from './Carousel';
 import Hero1 from './Hero1';
 import Products from './Products';
