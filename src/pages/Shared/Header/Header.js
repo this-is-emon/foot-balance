@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import pic from '../../../assets/images/t.png';
 
 const Header = () => {
@@ -22,7 +22,7 @@ const Header = () => {
                         </ul>
                     </div>
                     <div className="navbar-start">
-                        <a className="normal-case text-xl text-gray-600"> <img className='pl-3' src={pic} alt="foot logo" /></a>
+                        <a href="###" className="normal-case text-xl text-gray-600"> <img className='pl-3' src={pic} alt="foot logo" /></a>
                     </div>
                     {/* <div className="navbar-start">
                         <a className="normal-case text-xl text-gray-600"> <img className='lg:mx-auto pr-10' src={pic} alt="foot logo" /> <span className='font-bold'>Foot Balance Technology BD</span></a>
