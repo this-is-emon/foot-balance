@@ -11,7 +11,7 @@ const Hero1 = () => {
                 <div class="hero-content flex-col lg:flex-row">
                     <img data-aos="zoom-in"
                         data-aos-duration="30000"
-                        data-aos-delay="800" className='mx-auto sm:m-5 md:m-2' src={walk1} alt='walking pic' class="max-w-sm rounded-lg shadow-2xl" />
+                        data-aos-delay="800" className='mx-auto sm:m-5 md:m-2 rounded-lg shadow-2xl w-80' src={walk1} alt='walking pic' />
                     <div className='mr-16 md:mr-4 mx-auto'>
                         <p data-aos="fade-right"
                             data-aos-duration="30000"
