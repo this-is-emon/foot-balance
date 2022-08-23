@@ -25,9 +25,11 @@ const Review = () => {
                 </div>
             </div>
             <div class="flex justify-center w-full py-2 gap-2">
+                
                 <a href="#item1" class="btn btn-xs bg-primary">{t("review.1")}</a>
                 <a href="#item2" class="btn btn-xs bg-primary">{t("review.2")}</a>
                 <a href="#item3" class="btn btn-xs bg-primary">{t("review.3")}</a>
+    
             </div>
 
         </div>
