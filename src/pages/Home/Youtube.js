@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { NavLink } from 'react-router-dom';
 import pic from '../../assets/images/footer.png';
 import pic2 from '../../assets/images/ortho4.jpg';
+import './Youtube.css';
 
 const Youtube = () => {
     const { t } = useTranslation();
@@ -19,6 +20,7 @@ const Youtube = () => {
                                 data-aos="fade-right"
                                 data-aos-duration="30000"
                                 data-aos-delay="600"
+
                                 class="py-3 font-bold bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400 text-xl">{t("introVideoTitle")}</p>
                             <iframe
 
@@ -26,6 +28,7 @@ const Youtube = () => {
                                 data-aos-duration="30000"
                                 data-aos-delay="800"
                                 className='mx-auto pb-5 w-full h-full border-4 border-primary rounded-xl' src="https://www.youtube.com/embed/1uXbBusjUH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
                             <h1

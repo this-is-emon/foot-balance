@@ -12,7 +12,7 @@ const Products = () => {
                 <div class="hero-content flex-col lg:flex-row-reverse">
                     <img data-aos="zoom-in"
                         data-aos-duration="30000"
-                        data-aos-delay="800" className='mx-auto md:mr-2 max-w-sm rounded-lg shadow-2xl' src={diagram} alt='walking pic' />
+                        data-aos-delay="800" className='mx-auto sm:m-5 md:m-2 rounded-lg shadow-2xl w-80' src={diagram} alt='walking pic' />
                     <div className='md:mr-4 text-center'>
                         <p data-aos="fade-right"
                             data-aos-duration="30000"
