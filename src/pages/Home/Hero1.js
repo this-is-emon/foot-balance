@@ -1,8 +1,9 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import walk1 from '../../assets/images/walk1.jpg';
-import footer from '../../assets/images/footer.png'
 
 const Hero1 = () => {
+    const { t } = useTranslation();
     return (
         <div>
             <div class="hero min-h-screen bg-gradient-to-r from-gray-200 bg-opacity-50">
@@ -17,14 +18,14 @@ const Hero1 = () => {
                             data-aos-duration="30000"
                             data-aos-delay="1000"
                             className="mb-5 font-bold text-4xl bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400 border-b-4 max-w-lg border-gray-500 "
-                        >We can help you walk again!!</p>
+                        >{t("walkAgain")}</p>
                         <p data-aos="fade-left"
                             data-aos-duration="30000"
-                            data-aos-delay="1200" class="py-6 font-bold text-2xl text-gray-700">Did you know Foot Balance Technology can help you fight your walking inability better? </p>
+                            data-aos-delay="1200" class="py-6 font-bold text-2xl text-gray-700">{t("walkingInability")}</p>
                         <p data-aos="fade-right"
                             data-aos-duration="30000"
-                            data-aos-delay="1300" class="py-6 text-lime-700 text-xl">It is possible to enable people who have lower limb deformities caused by any accident, disease or even congenital conditions to be back on their feet.
-                            Foot Balance Technology is a specialized professional Pedorthic service provider based in Sydney, Australia. We provide care for feet & ankles through proper footwear for men, women, and children.
+                            data-aos-delay="1300" class="py-6 text-lime-700 text-xl"
+                        >{t("companyIntro")}
                         </p>
                     </div>
                 </div>

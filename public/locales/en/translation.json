@@ -1,0 +1,85 @@
+{
+    "_comment4":"HEADER SECTION COMPONENT",
+
+    
+    "navbar":{
+        "companyTitle":"Foot Balance Technology BD",
+        "home":"Home",
+        "services":"Services",
+        "products":"Products",
+        "aboutUs":"About Us",
+        "blogs":"Blogs",
+        "contactUs":"Contact Us"   
+    },
+    
+    "_comment0":"WALK AGAIN COMPONENT",
+    
+    "walkAgain": "We can help you walk again!!",
+    "walkingInability":"Did you know Foot Balance Technology can help you fight your walking inability better?",
+    "companyIntro":"It is possible to enable people who have lower limb deformities caused by any accident, disease or even congenital conditions to be back on their feet.Foot Balance Technology is a specialized professional Pedorthic service provider based in Sydney, Australia. We provide care for feet & ankles through proper footwear for men, women, and children.",
+
+    "_comment1":"INTRO VIDEO COMPONENT",
+
+    "introVideoTitle":"Watch the video and hear an inspiring story!",
+    "caseStudyTitle1":"Case studies of our clients",
+    "caseStudyTitle2":"STORIES THAT INSPIRE…",
+    "caseStudyParagraph1":"There is nothing harder than not being able to be on one’s feet. There are thousands of people suffering from difficulties in the lower limbs around the world. Over the years we have helped many people gain back their mobility and have put them back on track in their lives.",
+    "caseStudyParagraph2":"If you or anyone you know needs help managing or regaining their ability to walk at any point in their life, let us help. Spread the word so that everyone knows that we are here and we can help people walk again.",
+
+    "_comment2":"SERVICES COMPONENT",
+
+    "servicesTitle":"Our Services",
+    "servicesParagraph1":"At Foot Balance Technology we manage and treat various conditions of the foot, ankle, and lower limb extremities that require fitting, fabrication, and adjustments of pedorthic devices/footwear.",
+    "servicesParagraph2":"We make or modify footwear to assist clients to recover as much mobility as possible.",
+    "servicesLink":"SEE MORE...",
+
+    "_comment3":"OUR PRODUCTS COMPONENT",
+
+    "ourProductsTitle":"Our Products",
+    "ourProductsParagraph1":"It’s an unavoidable truth that the longer we walk the earth, the less stable the foundation provided by our hardworking feet becomes. Some of us are born with conditions that bring foot health challenges – such as cerebral palsy or a leg length difference. For others, poor-fitting shoes have caused bunions or calluses and disease has led to foot health complications.",
+    "ourProductsParagraph2":"We recommend and make the right footwear – the kind that will help you regain your balance, free you from pain and let you keep doing what you love best.",
+    "outProductsLink":"--- VIEW PRODUCTS ---",
+
+    "_comment7":"AWARDS COMPONENT",
+    "awardsTitle":"Awards and Recognition",
+
+    
+
+    "_comment5":"CUSTOMER REVIEW COMPONENT",
+    "review":{
+        "title":"Customer Reviews",
+        "1":"1",
+        "2":"2",
+        "3":"3"
+    },
+
+    "_comment6":"FOOTER COMPONENT",
+    "footer":{
+        "address":{
+            "title":"Foot Balance Technology BD",
+            "line1":"208-9 Outer Circular Road",
+            "line2":"Mogbazar",
+            "line3":"Dhaka-1217"
+        },
+        "contact":{
+            "title":"Contact Us",
+            "phone":"Phone Number",
+            "email":"Email Address"
+        },
+        "hours":{
+            "title":"Available Hours",
+            "line1":{
+                "day":"Saturday - Thursday",
+                "time":"(09:00am - 09:00pm)"
+            },
+            "line2":{
+                "day":"Friday",
+                "time":"(09:00am - 05:00pm)"
+            }
+            
+        }
+    }
+  
+
+}
+

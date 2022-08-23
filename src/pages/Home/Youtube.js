@@ -1,10 +1,12 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { NavLink } from 'react-router-dom';
 import pic from '../../assets/images/footer.png';
 import pic2 from '../../assets/images/ortho4.jpg';
 import './Youtube.css';
 
 const Youtube = () => {
+    const { t } = useTranslation();
     return (
         <div className='grid sm:grid-cols-1 lg:grid-cols-2 gap-2' style={{ background: `url(${pic})`, backgroundSize: 'cover' }}>
 
@@ -18,38 +20,44 @@ const Youtube = () => {
                                 data-aos="fade-right"
                                 data-aos-duration="30000"
                                 data-aos-delay="600"
-                                class="py-3 font-bold bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400 text-xl"> Watch the video and hear an inspiring story!</p>
-                            <div class="container">
-                                <iframe
-                                    data-aos="zoom-in-right"
-                                    data-aos-duration="30000"
-                                    data-aos-delay="800"
-                                    className='responsive-iframe mx-auto pb-5 w-full h-full border-t-4 border-b-4 border-primary rounded-xl' src="https://www.youtube.com/embed/1uXbBusjUH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                                </iframe>
 
-                            </div>
+                                class="py-3 font-bold bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400 text-xl">{t("introVideoTitle")}</p>
+                            <iframe
+
+                                data-aos="zoom-in-right"
+                                data-aos-duration="30000"
+                                data-aos-delay="800"
+                                className='mx-auto pb-5 w-full h-full border-4 border-primary rounded-xl' src="https://www.youtube.com/embed/1uXbBusjUH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
                             <h1
                                 data-aos="fade-left"
                                 data-aos-duration="30000"
                                 data-aos-delay="1000"
-                                class="text-3xl font-bold">Case studies
-                                of our clients</h1>
+                                class="text-3xl font-bold"
+                            >{t("caseStudyTitle1")}
+                            </h1>
                             <p
                                 data-aos="fade-right"
                                 data-aos-duration="30000"
                                 data-aos-delay="1200"
-                                class="py-3 text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400">STORIES THAT INSPIRE…</p>
+                                class="py-3 text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400"
+                            >{t("caseStudyTitle2")}</p>
                             <p
                                 data-aos="fade-left"
                                 data-aos-duration="30000"
                                 data-aos-delay="1400"
-                                class="py-4 font-semibold">There is nothing harder than not being able to be on one’s feet. There are thousands of people suffering from difficulties in the lower limbs around the world. Over the years we have helped many people gain back their mobility and have put them back on track in their lives.</p>
+                                class="py-4 font-semibold"
+                            >{t("caseStudyParagraph1")}
+                            </p>
                             <p
                                 data-aos="fade-right"
                                 data-aos-duration="30000"
                                 data-aos-delay="1600"
-                                class="py-2 font-semibold"> If you or anyone you know needs help managing or regaining their ability to walk at any point in their life, let us help. Spread the word so that everyone knows that we are here and we can help people walk again.</p>
+                                class="py-2 font-semibold"
+                            >{t("caseStudyParagraph2")}
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -69,7 +77,9 @@ const Youtube = () => {
                                 data-aos-duration="30000"
                                 data-aos-delay="600"
 
-                                class="py-3 pb-5 font-bold bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400 text-4xl">Our Services</p>
+                                class="py-3 pb-5 font-bold bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400 text-4xl"
+                            >{t("servicesTitle")}
+                            </p>
                             <img data-aos="zoom-in-left"
                                 data-aos-duration="30000"
                                 data-aos-delay="800"
@@ -77,18 +87,24 @@ const Youtube = () => {
                             <p data-aos="fade-right"
                                 data-aos-duration="30000"
                                 data-aos-delay="1400"
-                                class="py-4 font-semibold pt-10">At Foot Balance Technology we manage and treat various conditions of the foot, ankle, and lower limb extremities that require fitting, fabrication, and adjustments of pedorthic devices/footwear. </p>
+                                class="py-4 font-semibold pt-10"
+                            >{t("servicesParagraph1")}
+                            </p>
                             <p data-aos="fade-left"
                                 data-aos-duration="30000"
                                 data-aos-delay="1600"
-                                class="py-2 font-semibold"> We make or modify footwear to assist clients to recover as much mobility as possible.</p>
+                                class="py-2 font-semibold"
+                            >{t("servicesParagraph2")}
+                            </p>
 
                             <NavLink
 
                                 data-aos="fade-top"
                                 data-aos-duration="30000"
                                 data-aos-delay="1600"
-                                className=' bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400  font-bold text-xl' to='/services'>SEE MORE...</NavLink>
+                                className=' bg-clip-text text-transparent bg-gradient-to-r from-lime-500 to-orange-400  font-bold text-xl' to='/services'
+                            >{t("servicesLink")}
+                            </NavLink>
 
 
                         </div>
