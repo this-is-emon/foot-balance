@@ -1,0 +1,16 @@
+# Base Image
+FROM node:16-alpine
+# Setting up workspace
+WORKDIR /app
+# Copy only required files for downloading
+# node modules for caching purposes
+COPY package.json package-lock.json ./
+# Downloading node modules
+RUN npm install
+# Copy application to the workspace
+COPY . .
+# Setting up and exposing dev server port
+ENV PORT=3000
+EXPOSE ${PORT}
+# Starting dev server
+CMD [ "npm", "start" ]
